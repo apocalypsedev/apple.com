@@ -1,0 +1,46 @@
+export const NavbarData = [
+    {
+        text:"Store",
+        url:"/store",
+    },
+    {
+        text:"Mac",
+        url:"/mac",
+    },
+    {
+        text:"iPad",
+        url:"/ipad",
+    },
+    {
+        text:"iPhone",
+        url:"/iphone",
+    },
+    {
+        text:"Watch",
+        url:"/watch",
+    },
+    {
+        text:"Vision",
+        url:"/vision",
+    },
+    {
+        text:"AirPods",
+        url:"/airpods",
+    },
+    {
+        text:"TV & Home",
+        url:"/tvhome",
+    },
+    {
+        text:"Entertainment",
+        url:"/entertainment",
+    },
+    {
+        text:"Accessories",
+        url:"/accessories",
+    },
+    {
+        text:"Support",
+        url:"/support",
+    },
+];
