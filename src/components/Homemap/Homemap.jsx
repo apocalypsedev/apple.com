@@ -49,9 +49,9 @@ function Homemap() {
         },
     ];
   return (
-    <div className=' flex flex-col gap-2'>
+    <div className=' flex flex-col gap-2  xl:grid xl:grid-cols-2 lg:grid lg:grid-cols-2'>
         { HomeData.map((item, index)=>(
-         <div key={index} style={{ backgroundImage: `url(${item.img})`}} className={`text-black bg-center bg-cover  font-semibold flex flex-col text-center leading-10 items-center justify-start pt-10 w-[100%] h-[70vh]  xl:bg-center lg:bg-center `} >
+         <div key={index} style={{ backgroundImage: `url(${item.img})`}} className={`text-black bg-bottom bg-cover  font-semibold flex flex-col text-center leading-10 items-center justify-start pt-10 w-[100%] h-[70vh]  xl:bg-center lg:bg-center `} >
          <h1 style={{color: `${item.color}`}} className='text-4xl flex'>
            {item.text}
          </h1>
@@ -59,8 +59,8 @@ function Homemap() {
            {item.description}
          </h4>
          <div className='flex w-[100%] justify-center gap-4'>
-           <button className=' text-white bg-blue-500 w-[20%] xl:w-[10%] lg:w-[10%] text-[12px] rounded-[20px]'>{item.button}</button>
-           <button className=' text-blue-500 w-[20%] xl:w-[10%] lg:w-[10%] xl:p-0 text-[12px] border border-blue-500 rounded-[20px]' >{item.buy}</button>
+           <button className=' text-white bg-blue-500 w-[20%] xl:w-[15%] lg:w-[15%] text-[12px] rounded-[20px]'>{item.button}</button>
+           <button className=' text-blue-500 w-[20%] xl:w-[15%] lg:w-[15%] xl:p-0 text-[12px] border border-blue-500 rounded-[20px]' >{item.buy}</button>
          </div>
        </div>
         ))};
